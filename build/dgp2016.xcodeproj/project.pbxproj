@@ -1,0 +1,3516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		202C7EB9DA9B477C83ECBACE /* core_automoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A75EE3225F0E47CF844938D5 /* Build configuration list for PBXAggregateTarget "core_automoc" */;
+			buildPhases = (
+				675F5520B6EE487C918218E2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = core_automoc;
+			productName = core_automoc;
+		};
+		42299FE448CF427F90AC9781 /* dgp2016_automoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0213F168F872427AAC545859 /* Build configuration list for PBXAggregateTarget "dgp2016_automoc" */;
+			buildPhases = (
+				329EECDC4AF1429FA6AC15C7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = dgp2016_automoc;
+			productName = dgp2016_automoc;
+		};
+		479CDD075D0A429EB340EE37 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 927A49786C624A3EA8E6FEF6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CD7878709B4745049E32A5A8 /* CMake Rules */,
+			);
+			dependencies = (
+				A3B0F0DADCCB4B6CA46DDDB9 /* PBXTargetDependency */,
+				264C3EFA432F467BB0B49D5A /* PBXTargetDependency */,
+				09DC3AD20F504DA5B54E7BBE /* PBXTargetDependency */,
+				2A4F8A8912384DF495B8C383 /* PBXTargetDependency */,
+				32974F6DE2924DF6B74B5F28 /* PBXTargetDependency */,
+				12FE97CA45D749BCBD722465 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6A818CBEB2484736B640B3F2 /* io_automoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C22E77062CBA481984FCAC7B /* Build configuration list for PBXAggregateTarget "io_automoc" */;
+			buildPhases = (
+				C9E0FA80172C4B9EA6050104 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = io_automoc;
+			productName = io_automoc;
+		};
+		6F60B933C8CD496C9B8074E4 /* util_automoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BB0AFD1C8AD440708DCC7624 /* Build configuration list for PBXAggregateTarget "util_automoc" */;
+			buildPhases = (
+				E71E167A2E76462792774ACE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = util_automoc;
+			productName = util_automoc;
+		};
+		96568694783544D983CC9BC1 /* wrl_automoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE67172B3CE94EB8A96ECA8E /* Build configuration list for PBXAggregateTarget "wrl_automoc" */;
+			buildPhases = (
+				CB094503A9124BAD87CF3BEC /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = wrl_automoc;
+			productName = wrl_automoc;
+		};
+		A83F58840678494DA0545559 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5AFACEBD1114941838EA6E3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E101BDE5738742FCA81DA7A6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05F3D862C48D463AB62E4767 /* LoaderStl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DCD630ED2B418BBE896A4E /* LoaderStl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E91DE377E8F4D4FAE0E2D7A /* PixelTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CCC8F9FCC4E20BDA3F7FC /* PixelTexture.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		13CED452BBA149839EFC712B /* GuiMainWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08311E324F3479AA165A538 /* GuiMainWindow.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1F8B35BC71F249C08DB2BC10 /* util_automoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 121E664ABAD94940A25B8C28 /* util_automoc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		32529E2B3360400A920A9072 /* GuiToolsWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE24B4C1A32A4A2C9BE1802A /* GuiToolsWidget.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		340B9B58CB764592BC531BE8 /* IndexedFaceSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B683574D9E84AB7B4A3173D /* IndexedFaceSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		36856B997234414D9790C63E /* GraphTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A0E0658D9425093484DE7 /* GraphTraversal.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		371345D3599C48F4933BB307 /* SplittablePartition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120D325640B544B4A03CEBED /* SplittablePartition.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C9831CADADA406FBD943A02 /* GuiGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2B14F8AA0AF4B5984932F71 /* GuiGLShader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		48670020B32841CCA3579802 /* SaverStl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45624AFCE1124BF0BEFE7BF4 /* SaverStl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4AD01579E432472087BD8C02 /* Rotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8E7E33CC4C44B3BA3491EA7 /* Rotation.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4E61D2FC6CF24192B5EB43D3 /* bunny.icns in Resources */ = {isa = PBXBuildFile; fileRef = 827B664E26684855AA0A9F3A /* bunny.icns */; settings = {COMPILER_FLAGS = ""; }; };
+		57DBDFC757AB4FF0B27C6E1E /* PriorityQueueFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62022EBB8254AB9A4599EE3 /* PriorityQueueFloat.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5839FFA1854448299CFF37B1 /* Partition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57958C4FCED2420EBAF0D4F8 /* Partition.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5CCD5996F12B40F0AD7C9B1D /* LoaderWrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F531DF2F682D4147A4C9C1F7 /* LoaderWrl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5D696AF21E5340F086969636 /* ImageTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 721C1F21876649DDA4A14BA0 /* ImageTexture.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6219D5F6DBC4443BBA4D6597 /* dgp2016_automoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F8ABD98E5714066B9ED80F8 /* dgp2016_automoc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6C047E9BC3F04D93AC6E3101 /* AppLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7B8FCEC1C9419F94F25F23 /* AppLoader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		776C1965CA2846B0BE3D3A54 /* GuiQtLogo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1E391AC5AD43CB8408DDE7 /* GuiQtLogo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7847AB9BAF2A49F087B26F78 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448C99C0DA1344B3B3E823C7 /* Node.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7E43D0348E484C78A80A0878 /* io_automoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C860B77E3DA417CBA1C7DCC /* io_automoc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		806F4F53C1E7449EB2FC96DE /* Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3386B299159249D69BA491B9 /* Group.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		80B2360AF8F14A93BD43FF71 /* IndexedLineSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17302D718BDC46A895CD1327 /* IndexedLineSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		88D447F753504EDA89BB5C95 /* core_automoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB15AFC09B49DCA479CD7D /* core_automoc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8BE3B6A6F0204F34B7412E2D /* GuiGLBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA93C67664B46CA82E37EE5 /* GuiGLBuffer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8CB3E3791861433F95FDB622 /* GuiGLWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A5974E057C48E5896C9F0E /* GuiGLWidget.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8D7DBE9EB21541FE84BA7C6B /* GuiGLHandles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B32DB0B893F84305BEAF9C94 /* GuiGLHandles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E907F7A75A149F9A9CC31A8 /* SceneGraphProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2A90C325CD3483B91039C6A /* SceneGraphProcessor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8FAC7D2D673E4BEF9DED270D /* StaticRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5683E2FD5FC84C378EE06154 /* StaticRotation.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		97A908AF72524E95BF4AEECF /* PolygonMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86D8664F6EE34413A4BC3F77 /* PolygonMesh.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		98981E90F2E24DE4A63FD74A /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D30F796F09EF42098D668FEB /* Material.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9B4A7C025D4344C7BD6418B3 /* SaverWrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A601381793842CA82DA4C41 /* SaverWrl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A15C3890F99F42CDAA573256 /* BBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2EDB336F18E49B6BE49C274 /* BBox.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A6409F1CD2D84EB4B231BDA1 /* GuiViewerData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AA6EDF5044EADAE5B8D77 /* GuiViewerData.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BB1520C3BFC245DA8F82E75A /* QueueInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFF92A7555CD418C96E3A7CF /* QueueInt.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CAC856F3918F47A3BFAA757B /* Appearance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A21B2CA730954AC8928C0994 /* Appearance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CFFF09610F6148E5A86A4341 /* AppSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 460AA81128AE47F79D1331E7 /* AppSaver.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D060546CF7154C75920D5D1F /* Tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 991FB32E2E794738A26CB77F /* Tokenizer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D4F87BBA093F46649D363ECC /* GuiViewerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C86E1DF3C94D4CA532BC67 /* GuiViewerApp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D5094907F1A44E54BB5DC6D2 /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C07C8C70DE4C34ABBE14CA /* Transform.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D7B04BE700684B8F82E22859 /* SceneGraphTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A878B18737040E4AA3B41E8 /* SceneGraphTraversal.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D9F070D9783742328CC72733 /* wrl_automoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F4133598544D619ED4D559 /* wrl_automoc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E8227D20A3534303A7339452 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4FC5AFD334C448B5CB866 /* Shape.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E89F97E725114F4CBE7FDCAA /* SceneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 592FE829B51A4C779AB4A53B /* SceneGraph.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EAAA2D7E36E8430894124C70 /* GuiAboutDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B688CCE31C7A4FE5BD633950 /* GuiAboutDialog.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EC34CE2A13C042B792DD4E53 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 636BF4FED9C84C73AD3675C1 /* Graph.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F53C1855C50B4F33BFD5A59E /* Faces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6F20DD3487A43AD8255EE45 /* Faces.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05A64A19013B49709F5B109A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D38438845864B2F8A601027;
+			remoteInfo = util;
+		};
+		35223A2C36E44440A0B0F2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42299FE448CF427F90AC9781;
+			remoteInfo = dgp2016_automoc;
+		};
+		3EFB3F28F312491EB51789E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C6BEB38E274FC289FF7FFB;
+			remoteInfo = core;
+		};
+		3F29F8208B4049C494CF0B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73072E0A5B414EEE8A517EBE;
+			remoteInfo = dgp2016;
+		};
+		45A46EA486AF408288EEA5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAE4AD4524947DBBA42511A;
+			remoteInfo = io;
+		};
+		471AAE76581E49DCB53A1039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D38438845864B2F8A601027;
+			remoteInfo = util;
+		};
+		528777AAFA7C4AE6BE4B0C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83F58840678494DA0545559;
+			remoteInfo = ZERO_CHECK;
+		};
+		52A0075145EF4A328A2AF10F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAE4AD4524947DBBA42511A;
+			remoteInfo = io;
+		};
+		66FE232B004647AF83CED5B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAE4AD4524947DBBA42511A;
+			remoteInfo = io;
+		};
+		71E5F069DA8142569DDC0230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C6BEB38E274FC289FF7FFB;
+			remoteInfo = core;
+		};
+		81C8395985DC4CEDBD4F8B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6775E2B07D4213918CC7FD;
+			remoteInfo = wrl;
+		};
+		9043EBA94443467491D20564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83F58840678494DA0545559;
+			remoteInfo = ZERO_CHECK;
+		};
+		AC4C07B7A3B74CDDB5709C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F60B933C8CD496C9B8074E4;
+			remoteInfo = util_automoc;
+		};
+		AE2C870FA1604637A3BC728B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83F58840678494DA0545559;
+			remoteInfo = ZERO_CHECK;
+		};
+		B220A08CF68A4E15BB5715E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D38438845864B2F8A601027;
+			remoteInfo = util;
+		};
+		B84D65504E41485AA51B9A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAE4AD4524947DBBA42511A;
+			remoteInfo = io;
+		};
+		CA307FD657324AE59144EEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83F58840678494DA0545559;
+			remoteInfo = ZERO_CHECK;
+		};
+		CF89F34B42F9466E8DE619A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A818CBEB2484736B640B3F2;
+			remoteInfo = io_automoc;
+		};
+		D1F4A66876E84582A8D425CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202C7EB9DA9B477C83ECBACE;
+			remoteInfo = core_automoc;
+		};
+		DB36F670A4F543A8A9F0C659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAE4AD4524947DBBA42511A;
+			remoteInfo = io;
+		};
+		DF187C20269645E6B8779C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C6BEB38E274FC289FF7FFB;
+			remoteInfo = core;
+		};
+		DF453D6952CA4E8EB6BE9F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83F58840678494DA0545559;
+			remoteInfo = ZERO_CHECK;
+		};
+		E33E9B96963945F1AF7BCEF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6775E2B07D4213918CC7FD;
+			remoteInfo = wrl;
+		};
+		EA0FAB56FE614C75838C06C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D38438845864B2F8A601027;
+			remoteInfo = util;
+		};
+		EF4AD233C8904C7AA9045DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96568694783544D983CC9BC1;
+			remoteInfo = wrl_automoc;
+		};
+		F7CC4B02ED3B4496B1D2D2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4062C15F234E35BC38B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83F58840678494DA0545559;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024F51CC9EA44D6A84FAC44E /* GuiGLShader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiGLShader.hpp; path = gui/GuiGLShader.hpp; sourceTree = SOURCE_ROOT; };
+		02F5BCDB3557445B823C75BE /* LoaderWrl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = LoaderWrl.hpp; path = io/LoaderWrl.hpp; sourceTree = SOURCE_ROOT; };
+		05C42B2CAAF84A99903DD337 /* libutil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libutil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0FF7543B884F238B7D39B6 /* SceneGraph.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SceneGraph.hpp; path = wrl/SceneGraph.hpp; sourceTree = SOURCE_ROOT; };
+		0D1A0E0658D9425093484DE7 /* GraphTraversal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GraphTraversal.cpp; path = core/GraphTraversal.cpp; sourceTree = SOURCE_ROOT; };
+		10F4133598544D619ED4D559 /* wrl_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wrl_automoc.cpp; path = ../build/wrl/wrl_automoc.cpp; sourceTree = SOURCE_ROOT; };
+		111AD583AF4A4F4C920A4D88 /* dgp2016 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = dgp2016; path = dgp2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120D325640B544B4A03CEBED /* SplittablePartition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SplittablePartition.cpp; path = core/SplittablePartition.cpp; sourceTree = SOURCE_ROOT; };
+		121E664ABAD94940A25B8C28 /* util_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util_automoc.cpp; path = ../build/util/util_automoc.cpp; sourceTree = SOURCE_ROOT; };
+		1682A9DE504744E1B73DDF34 /* StaticRotation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = StaticRotation.hpp; path = util/StaticRotation.hpp; sourceTree = SOURCE_ROOT; };
+		17302D718BDC46A895CD1327 /* IndexedLineSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IndexedLineSet.cpp; path = wrl/IndexedLineSet.cpp; sourceTree = SOURCE_ROOT; };
+		19B04DFAAF574F89BE1039BB /* GuiGLBuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiGLBuffer.hpp; path = gui/GuiGLBuffer.hpp; sourceTree = SOURCE_ROOT; };
+		1A3D179310FB44AB8C384C4D /* SaverWrl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SaverWrl.hpp; path = io/SaverWrl.hpp; sourceTree = SOURCE_ROOT; };
+		1B83E70D77D64329AF279AC4 /* Tokenizer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Tokenizer.hpp; path = io/Tokenizer.hpp; sourceTree = SOURCE_ROOT; };
+		210782EC0CFF400EBA6F4C2A /* Rotation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Rotation.hpp; path = wrl/Rotation.hpp; sourceTree = SOURCE_ROOT; };
+		26DCD630ED2B418BBE896A4E /* LoaderStl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LoaderStl.cpp; path = io/LoaderStl.cpp; sourceTree = SOURCE_ROOT; };
+		27311688013D427A98D5990F /* QueueInt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = QueueInt.hpp; path = core/QueueInt.hpp; sourceTree = SOURCE_ROOT; };
+		2B2CCC8F9FCC4E20BDA3F7FC /* PixelTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelTexture.cpp; path = wrl/PixelTexture.cpp; sourceTree = SOURCE_ROOT; };
+		2F8ABD98E5714066B9ED80F8 /* dgp2016_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dgp2016_automoc.cpp; path = ../build/gui/dgp2016_automoc.cpp; sourceTree = SOURCE_ROOT; };
+		3152B1FFE78348A79EE58C29 /* Transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Transform.hpp; path = wrl/Transform.hpp; sourceTree = SOURCE_ROOT; };
+		3386B299159249D69BA491B9 /* Group.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Group.cpp; path = wrl/Group.cpp; sourceTree = SOURCE_ROOT; };
+		33C07C8C70DE4C34ABBE14CA /* Transform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Transform.cpp; path = wrl/Transform.cpp; sourceTree = SOURCE_ROOT; };
+		34678D0278EA41059A27A9F2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B456044BBC34F99B47EE76F /* Material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Material.hpp; path = wrl/Material.hpp; sourceTree = SOURCE_ROOT; };
+		448C99C0DA1344B3B3E823C7 /* Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Node.cpp; path = wrl/Node.cpp; sourceTree = SOURCE_ROOT; };
+		44F47B165B85457F9C078444 /* IndexedFaceSet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IndexedFaceSet.hpp; path = wrl/IndexedFaceSet.hpp; sourceTree = SOURCE_ROOT; };
+		45624AFCE1124BF0BEFE7BF4 /* SaverStl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SaverStl.cpp; path = io/SaverStl.cpp; sourceTree = SOURCE_ROOT; };
+		460AA81128AE47F79D1331E7 /* AppSaver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppSaver.cpp; path = io/AppSaver.cpp; sourceTree = SOURCE_ROOT; };
+		49B873F776C142DB80CDFDC6 /* LoaderStl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = LoaderStl.hpp; path = io/LoaderStl.hpp; sourceTree = SOURCE_ROOT; };
+		4AA77B6697444DBC8D35059B /* ImageTexture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ImageTexture.hpp; path = wrl/ImageTexture.hpp; sourceTree = SOURCE_ROOT; };
+		4C7B8FCEC1C9419F94F25F23 /* AppLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppLoader.cpp; path = io/AppLoader.cpp; sourceTree = SOURCE_ROOT; };
+		4DA93C67664B46CA82E37EE5 /* GuiGLBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiGLBuffer.cpp; path = gui/GuiGLBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		4E0215897CDE41A9A1308B51 /* PriorityQueueFloat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PriorityQueueFloat.hpp; path = core/PriorityQueueFloat.hpp; sourceTree = SOURCE_ROOT; };
+		5683E2FD5FC84C378EE06154 /* StaticRotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StaticRotation.cpp; path = util/StaticRotation.cpp; sourceTree = SOURCE_ROOT; };
+		57958C4FCED2420EBAF0D4F8 /* Partition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Partition.cpp; path = core/Partition.cpp; sourceTree = SOURCE_ROOT; };
+		589F8DDFB8DA4ED2BCB9CB04 /* Loader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Loader.hpp; path = io/Loader.hpp; sourceTree = SOURCE_ROOT; };
+		592FE829B51A4C779AB4A53B /* SceneGraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneGraph.cpp; path = wrl/SceneGraph.cpp; sourceTree = SOURCE_ROOT; };
+		5F2DE70725174DBCB7AD5F68 /* Shape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shape.hpp; path = wrl/Shape.hpp; sourceTree = SOURCE_ROOT; };
+		60F4B9FB542641EDA41A076D /* BBox.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = BBox.hpp; path = util/BBox.hpp; sourceTree = SOURCE_ROOT; };
+		6234BBE055D74EF5981C2229 /* PixelTexture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PixelTexture.hpp; path = wrl/PixelTexture.hpp; sourceTree = SOURCE_ROOT; };
+		636BF4FED9C84C73AD3675C1 /* Graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Graph.cpp; path = core/Graph.cpp; sourceTree = SOURCE_ROOT; };
+		65A5974E057C48E5896C9F0E /* GuiGLWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiGLWidget.cpp; path = gui/GuiGLWidget.cpp; sourceTree = SOURCE_ROOT; };
+		6B89315F5E6047869A9930E8 /* Node.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Node.hpp; path = wrl/Node.hpp; sourceTree = SOURCE_ROOT; };
+		6BF61D031F3E4F4BB5A2D119 /* GuiMainWindow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiMainWindow.hpp; path = gui/GuiMainWindow.hpp; sourceTree = SOURCE_ROOT; };
+		6C860B77E3DA417CBA1C7DCC /* io_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = io_automoc.cpp; path = ../build/io/io_automoc.cpp; sourceTree = SOURCE_ROOT; };
+		6EA6DA95D7464F9496886480 /* SplittablePartition.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SplittablePartition.hpp; path = core/SplittablePartition.hpp; sourceTree = SOURCE_ROOT; };
+		6F12BBF7DDEC498FB027FE78 /* SaverStl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SaverStl.hpp; path = io/SaverStl.hpp; sourceTree = SOURCE_ROOT; };
+		6F5DC5CBE2CE41C996BAEA93 /* SceneGraphProcessor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SceneGraphProcessor.hpp; path = wrl/SceneGraphProcessor.hpp; sourceTree = SOURCE_ROOT; };
+		721C1F21876649DDA4A14BA0 /* ImageTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImageTexture.cpp; path = wrl/ImageTexture.cpp; sourceTree = SOURCE_ROOT; };
+		72A4ACD3C86444428BCAD936 /* Group.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Group.hpp; path = wrl/Group.hpp; sourceTree = SOURCE_ROOT; };
+		756C429ED2544C998B66EA6B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78AA1F3B0FFA4200845CB4AD /* PolygonMesh.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PolygonMesh.hpp; path = core/PolygonMesh.hpp; sourceTree = SOURCE_ROOT; };
+		799AA6EDF5044EADAE5B8D77 /* GuiViewerData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiViewerData.cpp; path = gui/GuiViewerData.cpp; sourceTree = SOURCE_ROOT; };
+		7A25FF8ACF9B4BEAB20F51C3 /* AppSaver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AppSaver.hpp; path = io/AppSaver.hpp; sourceTree = SOURCE_ROOT; };
+		7A921AEB481249E2AE754709 /* libio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B683574D9E84AB7B4A3173D /* IndexedFaceSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IndexedFaceSet.cpp; path = wrl/IndexedFaceSet.cpp; sourceTree = SOURCE_ROOT; };
+		812D5FF9E77B407BA1B679BC /* AppLoader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AppLoader.hpp; path = io/AppLoader.hpp; sourceTree = SOURCE_ROOT; };
+		827B664E26684855AA0A9F3A /* bunny.icns */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bunny.icns; path = ../assets/bunny.icns; sourceTree = SOURCE_ROOT; };
+		85C86E1DF3C94D4CA532BC67 /* GuiViewerApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiViewerApp.cpp; path = gui/GuiViewerApp.cpp; sourceTree = SOURCE_ROOT; };
+		86D8664F6EE34413A4BC3F77 /* PolygonMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PolygonMesh.cpp; path = core/PolygonMesh.cpp; sourceTree = SOURCE_ROOT; };
+		8A601381793842CA82DA4C41 /* SaverWrl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SaverWrl.cpp; path = io/SaverWrl.cpp; sourceTree = SOURCE_ROOT; };
+		8A878B18737040E4AA3B41E8 /* SceneGraphTraversal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneGraphTraversal.cpp; path = wrl/SceneGraphTraversal.cpp; sourceTree = SOURCE_ROOT; };
+		8CAB15AFC09B49DCA479CD7D /* core_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core_automoc.cpp; path = ../build/core/core_automoc.cpp; sourceTree = SOURCE_ROOT; };
+		8CE4FC5AFD334C448B5CB866 /* Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = wrl/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		9648459D6AB545FB98492441 /* GuiAboutDialog.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiAboutDialog.hpp; path = gui/GuiAboutDialog.hpp; sourceTree = SOURCE_ROOT; };
+		97883273BBFA4927B4C7E492 /* Partition.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Partition.hpp; path = core/Partition.hpp; sourceTree = SOURCE_ROOT; };
+		991FB32E2E794738A26CB77F /* Tokenizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tokenizer.cpp; path = io/Tokenizer.cpp; sourceTree = SOURCE_ROOT; };
+		9C6A395241F646DD9970F2D2 /* StrException.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = StrException.hpp; path = io/StrException.hpp; sourceTree = SOURCE_ROOT; };
+		A21B2CA730954AC8928C0994 /* Appearance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Appearance.cpp; path = wrl/Appearance.cpp; sourceTree = SOURCE_ROOT; };
+		A43C46046939406A9069B6E3 /* Faces.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Faces.hpp; path = core/Faces.hpp; sourceTree = SOURCE_ROOT; };
+		AB4D809EAF044B2FBA48F820 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = core/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B08311E324F3479AA165A538 /* GuiMainWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiMainWindow.cpp; path = gui/GuiMainWindow.cpp; sourceTree = SOURCE_ROOT; };
+		B2EDB336F18E49B6BE49C274 /* BBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BBox.cpp; path = util/BBox.cpp; sourceTree = SOURCE_ROOT; };
+		B32DB0B893F84305BEAF9C94 /* GuiGLHandles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiGLHandles.cpp; path = gui/GuiGLHandles.cpp; sourceTree = SOURCE_ROOT; };
+		B688CCE31C7A4FE5BD633950 /* GuiAboutDialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiAboutDialog.cpp; path = gui/GuiAboutDialog.cpp; sourceTree = SOURCE_ROOT; };
+		BF1E391AC5AD43CB8408DDE7 /* GuiQtLogo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiQtLogo.cpp; path = gui/GuiQtLogo.cpp; sourceTree = SOURCE_ROOT; };
+		C12265AD1BD343419C58D09D /* GuiToolsWidget.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiToolsWidget.hpp; path = gui/GuiToolsWidget.hpp; sourceTree = SOURCE_ROOT; };
+		C2A90C325CD3483B91039C6A /* SceneGraphProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneGraphProcessor.cpp; path = wrl/SceneGraphProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		CE7289AF6F60410199A4828B /* Saver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Saver.hpp; path = io/Saver.hpp; sourceTree = SOURCE_ROOT; };
+		D1DA8CCC5D30401A898194A4 /* libwrl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libwrl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30F796F09EF42098D668FEB /* Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Material.cpp; path = wrl/Material.cpp; sourceTree = SOURCE_ROOT; };
+		D940E1B30953404E9943F93D /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = wrl/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9FFF69830AD4ADE96AF419B /* GuiGLHandles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiGLHandles.hpp; path = gui/GuiGLHandles.hpp; sourceTree = SOURCE_ROOT; };
+		DA4B2B39D4F944329CA2E907 /* Appearance.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Appearance.hpp; path = wrl/Appearance.hpp; sourceTree = SOURCE_ROOT; };
+		DB7C518FDAF54076B1BE1038 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = gui/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DDD063DF71AC458EA0B83B11 /* GraphTraversal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GraphTraversal.hpp; path = core/GraphTraversal.hpp; sourceTree = SOURCE_ROOT; };
+		E5527D8EA4A64654988EC98B /* IndexedLineSet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IndexedLineSet.hpp; path = wrl/IndexedLineSet.hpp; sourceTree = SOURCE_ROOT; };
+		E6F20DD3487A43AD8255EE45 /* Faces.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Faces.cpp; path = core/Faces.cpp; sourceTree = SOURCE_ROOT; };
+		E76332E2F87345C7A536C8A6 /* Graph.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Graph.hpp; path = core/Graph.hpp; sourceTree = SOURCE_ROOT; };
+		E8E7E33CC4C44B3BA3491EA7 /* Rotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Rotation.cpp; path = wrl/Rotation.cpp; sourceTree = SOURCE_ROOT; };
+		E9EF266EEED44AC787787285 /* libcore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA717D9A1A5D48D195866F81 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED98B62008564745987E610A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = io/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EDF821B19300463395CD1C31 /* SceneGraphTraversal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SceneGraphTraversal.hpp; path = wrl/SceneGraphTraversal.hpp; sourceTree = SOURCE_ROOT; };
+		EE24B4C1A32A4A2C9BE1802A /* GuiToolsWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiToolsWidget.cpp; path = gui/GuiToolsWidget.cpp; sourceTree = SOURCE_ROOT; };
+		F0491E922E3846E6A0546EA1 /* GuiViewerData.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiViewerData.hpp; path = gui/GuiViewerData.hpp; sourceTree = SOURCE_ROOT; };
+		F2B14F8AA0AF4B5984932F71 /* GuiGLShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuiGLShader.cpp; path = gui/GuiGLShader.cpp; sourceTree = SOURCE_ROOT; };
+		F427FC087B4A43C2A8A3BD3F /* GuiQtLogo.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiQtLogo.hpp; path = gui/GuiQtLogo.hpp; sourceTree = SOURCE_ROOT; };
+		F47E939AB9E741F5BBAA0154 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../build/gui/CMakeFiles/dgp2016.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		F531DF2F682D4147A4C9C1F7 /* LoaderWrl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LoaderWrl.cpp; path = io/LoaderWrl.cpp; sourceTree = SOURCE_ROOT; };
+		F62022EBB8254AB9A4599EE3 /* PriorityQueueFloat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PriorityQueueFloat.cpp; path = core/PriorityQueueFloat.cpp; sourceTree = SOURCE_ROOT; };
+		FCCBFF26150B4379A50062A3 /* GuiStrings.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiStrings.hpp; path = gui/GuiStrings.hpp; sourceTree = SOURCE_ROOT; };
+		FD60F19C74F54146B1626FDB /* GuiGLWidget.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GuiGLWidget.hpp; path = gui/GuiGLWidget.hpp; sourceTree = SOURCE_ROOT; };
+		FFF92A7555CD418C96E3A7CF /* QueueInt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QueueInt.cpp; path = core/QueueInt.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19D079A851B94529859E02B4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5B995B3557714F93A2D26F8D /* ALL_BUILD */,
+				FBA25DB90035471AADB1E840 /* ZERO_CHECK */,
+				260055A0AB164A3B8DC46AF3 /* io */,
+				541518002951455082BC4A1B /* io_automoc */,
+				30106278741948D0A3A63DED /* util */,
+				6862F54935F34A9F99C54FA1 /* util_automoc */,
+				4194ADC24B294E10A2B69F02 /* core_automoc */,
+				CE27A2232D79498D945A83E6 /* core */,
+				B51828C3CF2A44A38DB8C47F /* wrl_automoc */,
+				C0BFD0AD51DB44398FFA5829 /* wrl */,
+				201DE30613F741238FB3198F /* dgp2016 */,
+				A8CFC15F8BB04709AD3815CF /* dgp2016_automoc */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1D60C91473464D07928121CD = {
+			isa = PBXGroup;
+			children = (
+				19D079A851B94529859E02B4 /* Sources */,
+				972D802FE983404FA4D5DDFE /* Resources */,
+				F80F8621CA3D40409208C13E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EDC764B8DB54D90A7DE233A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				121E664ABAD94940A25B8C28 /* util_automoc.cpp */,
+				B2EDB336F18E49B6BE49C274 /* BBox.cpp */,
+				5683E2FD5FC84C378EE06154 /* StaticRotation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		201DE30613F741238FB3198F /* dgp2016 */ = {
+			isa = PBXGroup;
+			children = (
+				68CF7F54EC594E2298EAAA8B /* Header Files */,
+				BCEC052F7CAA4948BBF05C13 /* Source Files */,
+				5B8BE39666204C74B0D5C26B /* Resources */,
+				DB7C518FDAF54076B1BE1038 /* CMakeLists.txt */,
+			);
+			name = dgp2016;
+			sourceTree = "<group>";
+		};
+		21F283F8816B4FC793F48B7A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2208F48B9A5740B9944542AC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				60F4B9FB542641EDA41A076D /* BBox.hpp */,
+				1682A9DE504744E1B73DDF34 /* StaticRotation.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		260055A0AB164A3B8DC46AF3 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				C14FDC71101D42DDB674AD32 /* Header Files */,
+				BE4742351802408599C62989 /* Source Files */,
+				ED98B62008564745987E610A /* CMakeLists.txt */,
+			);
+			name = io;
+			sourceTree = "<group>";
+		};
+		30106278741948D0A3A63DED /* util */ = {
+			isa = PBXGroup;
+			children = (
+				2208F48B9A5740B9944542AC /* Header Files */,
+				1EDC764B8DB54D90A7DE233A /* Source Files */,
+				34678D0278EA41059A27A9F2 /* CMakeLists.txt */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		4194ADC24B294E10A2B69F02 /* core_automoc */ = {
+			isa = PBXGroup;
+			children = (
+				98A378619F6B4A05B9FFF00C /* CMake Rules */,
+			);
+			name = core_automoc;
+			sourceTree = "<group>";
+		};
+		4A962F70B4324547B90B4533 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43C46046939406A9069B6E3 /* Faces.hpp */,
+				E76332E2F87345C7A536C8A6 /* Graph.hpp */,
+				DDD063DF71AC458EA0B83B11 /* GraphTraversal.hpp */,
+				97883273BBFA4927B4C7E492 /* Partition.hpp */,
+				78AA1F3B0FFA4200845CB4AD /* PolygonMesh.hpp */,
+				4E0215897CDE41A9A1308B51 /* PriorityQueueFloat.hpp */,
+				27311688013D427A98D5990F /* QueueInt.hpp */,
+				6EA6DA95D7464F9496886480 /* SplittablePartition.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		541518002951455082BC4A1B /* io_automoc */ = {
+			isa = PBXGroup;
+			children = (
+				A54FE6F91FA440AE867F60A4 /* CMake Rules */,
+			);
+			name = io_automoc;
+			sourceTree = "<group>";
+		};
+		571CD3CCF4A7491791643ED2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B2B39D4F944329CA2E907 /* Appearance.hpp */,
+				72A4ACD3C86444428BCAD936 /* Group.hpp */,
+				4AA77B6697444DBC8D35059B /* ImageTexture.hpp */,
+				44F47B165B85457F9C078444 /* IndexedFaceSet.hpp */,
+				E5527D8EA4A64654988EC98B /* IndexedLineSet.hpp */,
+				3B456044BBC34F99B47EE76F /* Material.hpp */,
+				6B89315F5E6047869A9930E8 /* Node.hpp */,
+				6234BBE055D74EF5981C2229 /* PixelTexture.hpp */,
+				210782EC0CFF400EBA6F4C2A /* Rotation.hpp */,
+				0A0FF7543B884F238B7D39B6 /* SceneGraph.hpp */,
+				6F5DC5CBE2CE41C996BAEA93 /* SceneGraphProcessor.hpp */,
+				EDF821B19300463395CD1C31 /* SceneGraphTraversal.hpp */,
+				5F2DE70725174DBCB7AD5F68 /* Shape.hpp */,
+				3152B1FFE78348A79EE58C29 /* Transform.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5B8BE39666204C74B0D5C26B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F47E939AB9E741F5BBAA0154 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B995B3557714F93A2D26F8D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F22B823E1A7B498A9CC30631 /* CMake Rules */,
+				EA717D9A1A5D48D195866F81 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6862F54935F34A9F99C54FA1 /* util_automoc */ = {
+			isa = PBXGroup;
+			children = (
+				9E3064D86F344CD9A2281CB0 /* CMake Rules */,
+			);
+			name = util_automoc;
+			sourceTree = "<group>";
+		};
+		68CF7F54EC594E2298EAAA8B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9648459D6AB545FB98492441 /* GuiAboutDialog.hpp */,
+				19B04DFAAF574F89BE1039BB /* GuiGLBuffer.hpp */,
+				D9FFF69830AD4ADE96AF419B /* GuiGLHandles.hpp */,
+				024F51CC9EA44D6A84FAC44E /* GuiGLShader.hpp */,
+				FD60F19C74F54146B1626FDB /* GuiGLWidget.hpp */,
+				6BF61D031F3E4F4BB5A2D119 /* GuiMainWindow.hpp */,
+				F427FC087B4A43C2A8A3BD3F /* GuiQtLogo.hpp */,
+				FCCBFF26150B4379A50062A3 /* GuiStrings.hpp */,
+				C12265AD1BD343419C58D09D /* GuiToolsWidget.hpp */,
+				F0491E922E3846E6A0546EA1 /* GuiViewerData.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7E127622B38F450AA97DEB04 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8428A111D06A45259354C748 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CAB15AFC09B49DCA479CD7D /* core_automoc.cpp */,
+				E6F20DD3487A43AD8255EE45 /* Faces.cpp */,
+				636BF4FED9C84C73AD3675C1 /* Graph.cpp */,
+				0D1A0E0658D9425093484DE7 /* GraphTraversal.cpp */,
+				57958C4FCED2420EBAF0D4F8 /* Partition.cpp */,
+				86D8664F6EE34413A4BC3F77 /* PolygonMesh.cpp */,
+				F62022EBB8254AB9A4599EE3 /* PriorityQueueFloat.cpp */,
+				FFF92A7555CD418C96E3A7CF /* QueueInt.cpp */,
+				120D325640B544B4A03CEBED /* SplittablePartition.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		972D802FE983404FA4D5DDFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				827B664E26684855AA0A9F3A /* bunny.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98A378619F6B4A05B9FFF00C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9E3064D86F344CD9A2281CB0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A54FE6F91FA440AE867F60A4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A61EBAEE1BFC4D368BEDE35B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F4133598544D619ED4D559 /* wrl_automoc.cpp */,
+				A21B2CA730954AC8928C0994 /* Appearance.cpp */,
+				3386B299159249D69BA491B9 /* Group.cpp */,
+				721C1F21876649DDA4A14BA0 /* ImageTexture.cpp */,
+				7B683574D9E84AB7B4A3173D /* IndexedFaceSet.cpp */,
+				17302D718BDC46A895CD1327 /* IndexedLineSet.cpp */,
+				D30F796F09EF42098D668FEB /* Material.cpp */,
+				448C99C0DA1344B3B3E823C7 /* Node.cpp */,
+				2B2CCC8F9FCC4E20BDA3F7FC /* PixelTexture.cpp */,
+				E8E7E33CC4C44B3BA3491EA7 /* Rotation.cpp */,
+				592FE829B51A4C779AB4A53B /* SceneGraph.cpp */,
+				C2A90C325CD3483B91039C6A /* SceneGraphProcessor.cpp */,
+				8A878B18737040E4AA3B41E8 /* SceneGraphTraversal.cpp */,
+				8CE4FC5AFD334C448B5CB866 /* Shape.cpp */,
+				33C07C8C70DE4C34ABBE14CA /* Transform.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A8CFC15F8BB04709AD3815CF /* dgp2016_automoc */ = {
+			isa = PBXGroup;
+			children = (
+				7E127622B38F450AA97DEB04 /* CMake Rules */,
+			);
+			name = dgp2016_automoc;
+			sourceTree = "<group>";
+		};
+		B51828C3CF2A44A38DB8C47F /* wrl_automoc */ = {
+			isa = PBXGroup;
+			children = (
+				21F283F8816B4FC793F48B7A /* CMake Rules */,
+			);
+			name = wrl_automoc;
+			sourceTree = "<group>";
+		};
+		BCEC052F7CAA4948BBF05C13 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8ABD98E5714066B9ED80F8 /* dgp2016_automoc.cpp */,
+				B688CCE31C7A4FE5BD633950 /* GuiAboutDialog.cpp */,
+				4DA93C67664B46CA82E37EE5 /* GuiGLBuffer.cpp */,
+				B32DB0B893F84305BEAF9C94 /* GuiGLHandles.cpp */,
+				F2B14F8AA0AF4B5984932F71 /* GuiGLShader.cpp */,
+				65A5974E057C48E5896C9F0E /* GuiGLWidget.cpp */,
+				B08311E324F3479AA165A538 /* GuiMainWindow.cpp */,
+				BF1E391AC5AD43CB8408DDE7 /* GuiQtLogo.cpp */,
+				EE24B4C1A32A4A2C9BE1802A /* GuiToolsWidget.cpp */,
+				85C86E1DF3C94D4CA532BC67 /* GuiViewerApp.cpp */,
+				799AA6EDF5044EADAE5B8D77 /* GuiViewerData.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BE4742351802408599C62989 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C860B77E3DA417CBA1C7DCC /* io_automoc.cpp */,
+				4C7B8FCEC1C9419F94F25F23 /* AppLoader.cpp */,
+				460AA81128AE47F79D1331E7 /* AppSaver.cpp */,
+				26DCD630ED2B418BBE896A4E /* LoaderStl.cpp */,
+				F531DF2F682D4147A4C9C1F7 /* LoaderWrl.cpp */,
+				45624AFCE1124BF0BEFE7BF4 /* SaverStl.cpp */,
+				8A601381793842CA82DA4C41 /* SaverWrl.cpp */,
+				991FB32E2E794738A26CB77F /* Tokenizer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C0BFD0AD51DB44398FFA5829 /* wrl */ = {
+			isa = PBXGroup;
+			children = (
+				571CD3CCF4A7491791643ED2 /* Header Files */,
+				A61EBAEE1BFC4D368BEDE35B /* Source Files */,
+				D940E1B30953404E9943F93D /* CMakeLists.txt */,
+			);
+			name = wrl;
+			sourceTree = "<group>";
+		};
+		C14FDC71101D42DDB674AD32 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				812D5FF9E77B407BA1B679BC /* AppLoader.hpp */,
+				7A25FF8ACF9B4BEAB20F51C3 /* AppSaver.hpp */,
+				589F8DDFB8DA4ED2BCB9CB04 /* Loader.hpp */,
+				49B873F776C142DB80CDFDC6 /* LoaderStl.hpp */,
+				02F5BCDB3557445B823C75BE /* LoaderWrl.hpp */,
+				CE7289AF6F60410199A4828B /* Saver.hpp */,
+				6F12BBF7DDEC498FB027FE78 /* SaverStl.hpp */,
+				1A3D179310FB44AB8C384C4D /* SaverWrl.hpp */,
+				9C6A395241F646DD9970F2D2 /* StrException.hpp */,
+				1B83E70D77D64329AF279AC4 /* Tokenizer.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CE27A2232D79498D945A83E6 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4A962F70B4324547B90B4533 /* Header Files */,
+				8428A111D06A45259354C748 /* Source Files */,
+				AB4D809EAF044B2FBA48F820 /* CMakeLists.txt */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		DC538DEE008343A29DBF8841 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F22B823E1A7B498A9CC30631 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F80F8621CA3D40409208C13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A921AEB481249E2AE754709 /* libio.a */,
+				05C42B2CAAF84A99903DD337 /* libutil.a */,
+				E9EF266EEED44AC787787285 /* libcore.a */,
+				D1DA8CCC5D30401A898194A4 /* libwrl.a */,
+				111AD583AF4A4F4C920A4D88 /* dgp2016 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA25DB90035471AADB1E840 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				DC538DEE008343A29DBF8841 /* CMake Rules */,
+				756C429ED2544C998B66EA6B /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C6BEB38E274FC289FF7FFB /* core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87A2582EF314590A1B1C37D /* Build configuration list for PBXNativeTarget "core" */;
+			buildPhases = (
+				B08F139F01BA4BA09DE77ECF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6652F21FCCCE48E0B41BF281 /* PBXTargetDependency */,
+				BAF4B1742D984B6E8575CC58 /* PBXTargetDependency */,
+				DF0B863CE70248F08F053B57 /* PBXTargetDependency */,
+				82C76BED734B475A8D354181 /* PBXTargetDependency */,
+			);
+			name = core;
+			productName = core;
+			productReference = E9EF266EEED44AC787787285 /* libcore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73072E0A5B414EEE8A517EBE /* dgp2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889ED29DF5274A9888428BFF /* Build configuration list for PBXNativeTarget "dgp2016" */;
+			buildPhases = (
+				0C8D8D2D271E4D6E89BB9347 /* Resources */,
+				514CA18AD3504121B2396B0D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE79FAC95FDD4C2EB186A2B6 /* PBXTargetDependency */,
+				0FBC8E2A734A4E79ABD170EA /* PBXTargetDependency */,
+				C137D4BBE5D64B2EAF70D415 /* PBXTargetDependency */,
+				7EC2B7188BBE4BC79B566769 /* PBXTargetDependency */,
+				630694A6CA28462DAA47A9A6 /* PBXTargetDependency */,
+				4CEBA474F8BB4FBC99CA7572 /* PBXTargetDependency */,
+			);
+			name = dgp2016;
+			productName = dgp2016;
+			productReference = 111AD583AF4A4F4C920A4D88 /* dgp2016 */;
+			productType = "com.apple.product-type.application";
+		};
+		8BAE4AD4524947DBBA42511A /* io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4689B4250DD249F28B2A65EC /* Build configuration list for PBXNativeTarget "io" */;
+			buildPhases = (
+				22C79A06A9224534A56D38DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15F28D36CA434088BC07AB1E /* PBXTargetDependency */,
+				E197472E4F5D41DF80B893B5 /* PBXTargetDependency */,
+			);
+			name = io;
+			productName = io;
+			productReference = 7A921AEB481249E2AE754709 /* libio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9D38438845864B2F8A601027 /* util */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C66A83A5A54AC9BCD11239 /* Build configuration list for PBXNativeTarget "util" */;
+			buildPhases = (
+				13313A23F25C4B21B462E735 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95DFC8DFA0B487A8A8F5719 /* PBXTargetDependency */,
+				C264DDCF1DA64E2C8050B576 /* PBXTargetDependency */,
+				A9138943BE0243AF96D1E95D /* PBXTargetDependency */,
+			);
+			name = util;
+			productName = util;
+			productReference = 05C42B2CAAF84A99903DD337 /* libutil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA6775E2B07D4213918CC7FD /* wrl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ED8DB00C484B32B698B26C /* Build configuration list for PBXNativeTarget "wrl" */;
+			buildPhases = (
+				AE0F82C758814A8994A99BAC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4818B6AED525434B90AD284F /* PBXTargetDependency */,
+				6F004E2151434057B428988D /* PBXTargetDependency */,
+				B9089A97BEF444B1A89B9DCD /* PBXTargetDependency */,
+				FC1FD69F7D104DB4A03D782F /* PBXTargetDependency */,
+				B6DB725D50C7406FBBF1CCF2 /* PBXTargetDependency */,
+			);
+			name = wrl;
+			productName = wrl;
+			productReference = D1DA8CCC5D30401A898194A4 /* libwrl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E4062C15F234E35BC38B2DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CFC35E8BCAD142E4B23A8C87 /* Build configuration list for PBXProject "dgp2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D60C91473464D07928121CD;
+			projectDirPath = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src";
+			projectRoot = "";
+			targets = (
+				479CDD075D0A429EB340EE37 /* ALL_BUILD */,
+				A83F58840678494DA0545559 /* ZERO_CHECK */,
+				8BAE4AD4524947DBBA42511A /* io */,
+				6A818CBEB2484736B640B3F2 /* io_automoc */,
+				9D38438845864B2F8A601027 /* util */,
+				6F60B933C8CD496C9B8074E4 /* util_automoc */,
+				38C6BEB38E274FC289FF7FFB /* core */,
+				202C7EB9DA9B477C83ECBACE /* core_automoc */,
+				EA6775E2B07D4213918CC7FD /* wrl */,
+				96568694783544D983CC9BC1 /* wrl_automoc */,
+				73072E0A5B414EEE8A517EBE /* dgp2016 */,
+				42299FE448CF427F90AC9781 /* dgp2016_automoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C8D8D2D271E4D6E89BB9347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E61D2FC6CF24192B5EB43D3 /* bunny.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329EECDC4AF1429FA6AC15C7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/gui -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/gui/CMakeScripts/dgp2016_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		675F5520B6EE487C918218E2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/core -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/core/CMakeScripts/core_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C9E0FA80172C4B9EA6050104 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/io -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/io/CMakeScripts/io_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CB094503A9124BAD87CF3BEC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/wrl -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/wrl/CMakeScripts/wrl_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CD7878709B4745049E32A5A8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E101BDE5738742FCA81DA7A6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E71E167A2E76462792774ACE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/util -f /Users/mac/Google\\ Drive/Course/2016\\ Fall/ENGN2501/hw/DGP2016-A1/build/util/CMakeScripts/util_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13313A23F25C4B21B462E735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8B35BC71F249C08DB2BC10 /* util_automoc.cpp in Sources */,
+				A15C3890F99F42CDAA573256 /* BBox.cpp in Sources */,
+				8FAC7D2D673E4BEF9DED270D /* StaticRotation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C79A06A9224534A56D38DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E43D0348E484C78A80A0878 /* io_automoc.cpp in Sources */,
+				6C047E9BC3F04D93AC6E3101 /* AppLoader.cpp in Sources */,
+				CFFF09610F6148E5A86A4341 /* AppSaver.cpp in Sources */,
+				05F3D862C48D463AB62E4767 /* LoaderStl.cpp in Sources */,
+				5CCD5996F12B40F0AD7C9B1D /* LoaderWrl.cpp in Sources */,
+				48670020B32841CCA3579802 /* SaverStl.cpp in Sources */,
+				9B4A7C025D4344C7BD6418B3 /* SaverWrl.cpp in Sources */,
+				D060546CF7154C75920D5D1F /* Tokenizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514CA18AD3504121B2396B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6219D5F6DBC4443BBA4D6597 /* dgp2016_automoc.cpp in Sources */,
+				EAAA2D7E36E8430894124C70 /* GuiAboutDialog.cpp in Sources */,
+				8BE3B6A6F0204F34B7412E2D /* GuiGLBuffer.cpp in Sources */,
+				8D7DBE9EB21541FE84BA7C6B /* GuiGLHandles.cpp in Sources */,
+				3C9831CADADA406FBD943A02 /* GuiGLShader.cpp in Sources */,
+				8CB3E3791861433F95FDB622 /* GuiGLWidget.cpp in Sources */,
+				13CED452BBA149839EFC712B /* GuiMainWindow.cpp in Sources */,
+				776C1965CA2846B0BE3D3A54 /* GuiQtLogo.cpp in Sources */,
+				32529E2B3360400A920A9072 /* GuiToolsWidget.cpp in Sources */,
+				D4F87BBA093F46649D363ECC /* GuiViewerApp.cpp in Sources */,
+				A6409F1CD2D84EB4B231BDA1 /* GuiViewerData.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F82C758814A8994A99BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F070D9783742328CC72733 /* wrl_automoc.cpp in Sources */,
+				CAC856F3918F47A3BFAA757B /* Appearance.cpp in Sources */,
+				806F4F53C1E7449EB2FC96DE /* Group.cpp in Sources */,
+				5D696AF21E5340F086969636 /* ImageTexture.cpp in Sources */,
+				340B9B58CB764592BC531BE8 /* IndexedFaceSet.cpp in Sources */,
+				80B2360AF8F14A93BD43FF71 /* IndexedLineSet.cpp in Sources */,
+				98981E90F2E24DE4A63FD74A /* Material.cpp in Sources */,
+				7847AB9BAF2A49F087B26F78 /* Node.cpp in Sources */,
+				0E91DE377E8F4D4FAE0E2D7A /* PixelTexture.cpp in Sources */,
+				4AD01579E432472087BD8C02 /* Rotation.cpp in Sources */,
+				E89F97E725114F4CBE7FDCAA /* SceneGraph.cpp in Sources */,
+				8E907F7A75A149F9A9CC31A8 /* SceneGraphProcessor.cpp in Sources */,
+				D7B04BE700684B8F82E22859 /* SceneGraphTraversal.cpp in Sources */,
+				E8227D20A3534303A7339452 /* Shape.cpp in Sources */,
+				D5094907F1A44E54BB5DC6D2 /* Transform.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08F139F01BA4BA09DE77ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D447F753504EDA89BB5C95 /* core_automoc.cpp in Sources */,
+				F53C1855C50B4F33BFD5A59E /* Faces.cpp in Sources */,
+				EC34CE2A13C042B792DD4E53 /* Graph.cpp in Sources */,
+				36856B997234414D9790C63E /* GraphTraversal.cpp in Sources */,
+				5839FFA1854448299CFF37B1 /* Partition.cpp in Sources */,
+				97A908AF72524E95BF4AEECF /* PolygonMesh.cpp in Sources */,
+				57DBDFC757AB4FF0B27C6E1E /* PriorityQueueFloat.cpp in Sources */,
+				BB1520C3BFC245DA8F82E75A /* QueueInt.cpp in Sources */,
+				371345D3599C48F4933BB307 /* SplittablePartition.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DC3AD20F504DA5B54E7BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C6BEB38E274FC289FF7FFB /* core */;
+			targetProxy = 71E5F069DA8142569DDC0230 /* PBXContainerItemProxy */;
+		};
+		0FBC8E2A734A4E79ABD170EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAE4AD4524947DBBA42511A /* io */;
+			targetProxy = DB36F670A4F543A8A9F0C659 /* PBXContainerItemProxy */;
+		};
+		12FE97CA45D749BCBD722465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D38438845864B2F8A601027 /* util */;
+			targetProxy = 471AAE76581E49DCB53A1039 /* PBXContainerItemProxy */;
+		};
+		15F28D36CA434088BC07AB1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A818CBEB2484736B640B3F2 /* io_automoc */;
+			targetProxy = CF89F34B42F9466E8DE619A1 /* PBXContainerItemProxy */;
+		};
+		264C3EFA432F467BB0B49D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAE4AD4524947DBBA42511A /* io */;
+			targetProxy = 52A0075145EF4A328A2AF10F /* PBXContainerItemProxy */;
+		};
+		2A4F8A8912384DF495B8C383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73072E0A5B414EEE8A517EBE /* dgp2016 */;
+			targetProxy = 3F29F8208B4049C494CF0B3E /* PBXContainerItemProxy */;
+		};
+		32974F6DE2924DF6B74B5F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83F58840678494DA0545559 /* ZERO_CHECK */;
+			targetProxy = CA307FD657324AE59144EEE4 /* PBXContainerItemProxy */;
+		};
+		4818B6AED525434B90AD284F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAE4AD4524947DBBA42511A /* io */;
+			targetProxy = B84D65504E41485AA51B9A77 /* PBXContainerItemProxy */;
+		};
+		4CEBA474F8BB4FBC99CA7572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D38438845864B2F8A601027 /* util */;
+			targetProxy = B220A08CF68A4E15BB5715E1 /* PBXContainerItemProxy */;
+		};
+		630694A6CA28462DAA47A9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83F58840678494DA0545559 /* ZERO_CHECK */;
+			targetProxy = F7CC4B02ED3B4496B1D2D2BF /* PBXContainerItemProxy */;
+		};
+		6652F21FCCCE48E0B41BF281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAE4AD4524947DBBA42511A /* io */;
+			targetProxy = 45A46EA486AF408288EEA5E4 /* PBXContainerItemProxy */;
+		};
+		6F004E2151434057B428988D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C6BEB38E274FC289FF7FFB /* core */;
+			targetProxy = 3EFB3F28F312491EB51789E6 /* PBXContainerItemProxy */;
+		};
+		7EC2B7188BBE4BC79B566769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42299FE448CF427F90AC9781 /* dgp2016_automoc */;
+			targetProxy = 35223A2C36E44440A0B0F2D2 /* PBXContainerItemProxy */;
+		};
+		82C76BED734B475A8D354181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D38438845864B2F8A601027 /* util */;
+			targetProxy = 05A64A19013B49709F5B109A /* PBXContainerItemProxy */;
+		};
+		A3B0F0DADCCB4B6CA46DDDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6775E2B07D4213918CC7FD /* wrl */;
+			targetProxy = E33E9B96963945F1AF7BCEF6 /* PBXContainerItemProxy */;
+		};
+		A9138943BE0243AF96D1E95D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83F58840678494DA0545559 /* ZERO_CHECK */;
+			targetProxy = 528777AAFA7C4AE6BE4B0C0C /* PBXContainerItemProxy */;
+		};
+		B6DB725D50C7406FBBF1CCF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D38438845864B2F8A601027 /* util */;
+			targetProxy = EA0FAB56FE614C75838C06C4 /* PBXContainerItemProxy */;
+		};
+		B9089A97BEF444B1A89B9DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83F58840678494DA0545559 /* ZERO_CHECK */;
+			targetProxy = 9043EBA94443467491D20564 /* PBXContainerItemProxy */;
+		};
+		BAF4B1742D984B6E8575CC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202C7EB9DA9B477C83ECBACE /* core_automoc */;
+			targetProxy = D1F4A66876E84582A8D425CF /* PBXContainerItemProxy */;
+		};
+		C137D4BBE5D64B2EAF70D415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C6BEB38E274FC289FF7FFB /* core */;
+			targetProxy = DF187C20269645E6B8779C45 /* PBXContainerItemProxy */;
+		};
+		C264DDCF1DA64E2C8050B576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F60B933C8CD496C9B8074E4 /* util_automoc */;
+			targetProxy = AC4C07B7A3B74CDDB5709C88 /* PBXContainerItemProxy */;
+		};
+		DF0B863CE70248F08F053B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83F58840678494DA0545559 /* ZERO_CHECK */;
+			targetProxy = DF453D6952CA4E8EB6BE9F25 /* PBXContainerItemProxy */;
+		};
+		E197472E4F5D41DF80B893B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83F58840678494DA0545559 /* ZERO_CHECK */;
+			targetProxy = AE2C870FA1604637A3BC728B /* PBXContainerItemProxy */;
+		};
+		E95DFC8DFA0B487A8A8F5719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAE4AD4524947DBBA42511A /* io */;
+			targetProxy = 66FE232B004647AF83CED5B5 /* PBXContainerItemProxy */;
+		};
+		FC1FD69F7D104DB4A03D782F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96568694783544D983CC9BC1 /* wrl_automoc */;
+			targetProxy = EF4AD233C8904C7AA9045DC6 /* PBXContainerItemProxy */;
+		};
+		FE79FAC95FDD4C2EB186A2B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6775E2B07D4213918CC7FD /* wrl */;
+			targetProxy = 81C8395985DC4CEDBD4F8B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E232C7F690468896900E28 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		0757FE29EBF240EFBB3499FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		09CEA62117714E7683E35C53 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		0E2F120C98EE4905B79C7B3D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		11EA0A7660764D85AB4DF05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		12DE0C3CAF8E4FB0B55F986E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		14BB9EDC8B574326959DD318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INFOPLIST_FILE = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui/CMakeFiles/dgp2016.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libio.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libwrl.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libio.a\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/QtSvg,
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		22B2BC84599E4ED78FC4439F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INFOPLIST_FILE = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui/CMakeFiles/dgp2016.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libio.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libwrl.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel/libio.a\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/QtSvg,
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		360C12B6832D428BA5966EBE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INFOPLIST_FILE = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui/CMakeFiles/dgp2016.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libio.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libwrl.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo/libio.a\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/QtSvg,
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		384C3DB0E62449E4A1E70F2B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		3B6D0996331B42EFA1D0ACF3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3E7523D0B02748E08FFD4E82 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		470CADB7236B495EBBE37C80 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		485B05220CF848C99A1566DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		4DBC1376FE774E5F8A465870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		501562F235604C719E956251 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		512D4097B30D4C19B6F733B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		54DA2ABB24D841FE93C2A4E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		5602F05D0ABD48CD86B0CF8A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/build";
+			};
+			name = MinSizeRel;
+		};
+		56ED580E75D140938638AF2D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		5F63EEED260A483CB528549F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		6262BB0BD0004C4F8D5BA2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		62E1E9200EB9485A9D5A5770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		67BA4D6CFE644B45ACA8987F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		681FFC35DB5E41A0ACFEA130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		6C9B0E5E37874A5B8F7BB5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		7147B4EE777F47AF864E6BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		73CB04B6A2C14147BB1FBD55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		76F4AE078AA04DA881948077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		779144BC3D334B6FBB3C7F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		86E85A22A23A4B148AB217A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		9EAA384215C14AA0B42D4986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		A0077E3DFF424C0589D8939D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		A1C2B628DC5D407187CCA692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		A53474CA51334AFD807305E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/build";
+			};
+			name = Release;
+		};
+		AF872A5B083448B489C82808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		BBB0201FA10E48E1B823012F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BDFEA5D254B34BD691731C0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C49B46B652EB478DBE288A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C97A770EA4614CB8AE1EDA85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		CE04A52252754219B9B23780 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		CE18C1DDF570428DABAF3807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		D3BC4F55ECC4413181B0F605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/build";
+			};
+			name = Debug;
+		};
+		DE66D8AA05924144ABA3E694 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		E690666BF110439693C1A33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		E6AA71A0A50C4BD684908576 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		EE235BEA46FE44329303F1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/gui\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INFOPLIST_FILE = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui/CMakeFiles/dgp2016.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libio.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libwrl.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libcore.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libutil.a\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/libio.a\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/QtSvg,
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dgp2016;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		EF9CD094CF164714878BED11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		F11B3225F70C4902BF695C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/core\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		F87D6966425143DB9BA05CC3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = /Users/mac/Qt/5.5/clang_64/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_SVG_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/io\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+					/Users/mac/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/mac/Qt/5.5/clang_64/./mkspecs/macx-clang",
+					/Users/mac/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mac/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F9740098CC294A66A307E095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NOMINMAX,
+					_CRT_SECURE_NO_WARNINGS,
+					_SCL_SECURE_NO_WARNINGS,
+					_USE_MATH_DEFINES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		FA2819EA25DA4F71951C7CCD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/util\"",
+					"\"/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0213F168F872427AAC545859 /* Build configuration list for PBXAggregateTarget "dgp2016_automoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BA4D6CFE644B45ACA8987F /* Debug */,
+				779144BC3D334B6FBB3C7F12 /* Release */,
+				BDFEA5D254B34BD691731C0B /* MinSizeRel */,
+				73CB04B6A2C14147BB1FBD55 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18ED8DB00C484B32B698B26C /* Build configuration list for PBXNativeTarget "wrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9CD094CF164714878BED11 /* Debug */,
+				12DE0C3CAF8E4FB0B55F986E /* Release */,
+				A0077E3DFF424C0589D8939D /* MinSizeRel */,
+				3B6D0996331B42EFA1D0ACF3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4689B4250DD249F28B2A65EC /* Build configuration list for PBXNativeTarget "io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F4AE078AA04DA881948077 /* Debug */,
+				11EA0A7660764D85AB4DF05D /* Release */,
+				BBB0201FA10E48E1B823012F /* MinSizeRel */,
+				F87D6966425143DB9BA05CC3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		889ED29DF5274A9888428BFF /* Build configuration list for PBXNativeTarget "dgp2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE235BEA46FE44329303F1C8 /* Debug */,
+				14BB9EDC8B574326959DD318 /* Release */,
+				22B2BC84599E4ED78FC4439F /* MinSizeRel */,
+				360C12B6832D428BA5966EBE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		927A49786C624A3EA8E6FEF6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9740098CC294A66A307E095 /* Debug */,
+				6C9B0E5E37874A5B8F7BB5B5 /* Release */,
+				3E7523D0B02748E08FFD4E82 /* MinSizeRel */,
+				501562F235604C719E956251 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A75EE3225F0E47CF844938D5 /* Build configuration list for PBXAggregateTarget "core_automoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49B46B652EB478DBE288A98 /* Debug */,
+				62E1E9200EB9485A9D5A5770 /* Release */,
+				5F63EEED260A483CB528549F /* MinSizeRel */,
+				56ED580E75D140938638AF2D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A87A2582EF314590A1B1C37D /* Build configuration list for PBXNativeTarget "core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC1376FE774E5F8A465870 /* Debug */,
+				F11B3225F70C4902BF695C6F /* Release */,
+				470CADB7236B495EBBE37C80 /* MinSizeRel */,
+				0757FE29EBF240EFBB3499FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB0AFD1C8AD440708DCC7624 /* Build configuration list for PBXAggregateTarget "util_automoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7147B4EE777F47AF864E6BEA /* Debug */,
+				9EAA384215C14AA0B42D4986 /* Release */,
+				09CEA62117714E7683E35C53 /* MinSizeRel */,
+				FA2819EA25DA4F71951C7CCD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C22E77062CBA481984FCAC7B /* Build configuration list for PBXAggregateTarget "io_automoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF872A5B083448B489C82808 /* Debug */,
+				A1C2B628DC5D407187CCA692 /* Release */,
+				DE66D8AA05924144ABA3E694 /* MinSizeRel */,
+				CE04A52252754219B9B23780 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFC35E8BCAD142E4B23A8C87 /* Build configuration list for PBXProject "dgp2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC4F55ECC4413181B0F605 /* Debug */,
+				A53474CA51334AFD807305E6 /* Release */,
+				5602F05D0ABD48CD86B0CF8A /* MinSizeRel */,
+				01E232C7F690468896900E28 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE67172B3CE94EB8A96ECA8E /* Build configuration list for PBXAggregateTarget "wrl_automoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E690666BF110439693C1A33B /* Debug */,
+				485B05220CF848C99A1566DC /* Release */,
+				54DA2ABB24D841FE93C2A4E7 /* MinSizeRel */,
+				C97A770EA4614CB8AE1EDA85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7C66A83A5A54AC9BCD11239 /* Build configuration list for PBXNativeTarget "util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FFC35DB5E41A0ACFEA130 /* Debug */,
+				CE18C1DDF570428DABAF3807 /* Release */,
+				384C3DB0E62449E4A1E70F2B /* MinSizeRel */,
+				0E2F120C98EE4905B79C7B3D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5AFACEBD1114941838EA6E3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512D4097B30D4C19B6F733B7 /* Debug */,
+				6262BB0BD0004C4F8D5BA2FC /* Release */,
+				E6AA71A0A50C4BD684908576 /* MinSizeRel */,
+				86E85A22A23A4B148AB217A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E4062C15F234E35BC38B2DD /* Project object */;
+}
