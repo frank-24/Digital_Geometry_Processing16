@@ -38,7 +38,9 @@
 #define _FACES_HPP_
 
 #include <vector>
-
+#include "iostream"
+#include <iterator>
+#include <algorithm>
 using namespace std;
 
 class Faces {
@@ -55,13 +57,19 @@ public:
   int     getCornerFace(const int iC)              const;
   int     getNextCorner(const int iC)              const;
 
+  //
+  vector<int> getFirstCornerOfFace()               const;
+  vector<int> getCoordIndex()                      const;
+
 private:
 
   // TODO
   int _numberOfFaces;
   int _numberOfVertices;
   int _numberOfCorners;
-  vector<int> _coorIndex;
+  vector<int> _coordIndex;
+  vector<int> _firstCornerOfFace; // index of firstCornerOfFace in coordIndex
+
 };
 
 #endif /* _FACES_HPP_ */

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src
+# Install script for directory: /Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,11 +29,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io/cmake_install.cmake")
-  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util/cmake_install.cmake")
-  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/core/cmake_install.cmake")
-  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/wrl/cmake_install.cmake")
-  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/gui/cmake_install.cmake")
+  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/io/cmake_install.cmake")
+  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/util/cmake_install.cmake")
+  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/core/cmake_install.cmake")
+  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/wrl/cmake_install.cmake")
+  include("/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/gui/cmake_install.cmake")
 
 endif()
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

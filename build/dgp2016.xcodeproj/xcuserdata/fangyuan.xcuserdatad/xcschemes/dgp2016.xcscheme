@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73072E0A5B414EEE8A517EBE"
+               BlueprintIdentifier = "17DA6CA698D84E76BBA44FD9"
                BuildableName = "dgp2016.app"
                BlueprintName = "dgp2016"
                ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73072E0A5B414EEE8A517EBE"
+            BlueprintIdentifier = "17DA6CA698D84E76BBA44FD9"
             BuildableName = "dgp2016.app"
             BlueprintName = "dgp2016"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73072E0A5B414EEE8A517EBE"
+            BlueprintIdentifier = "17DA6CA698D84E76BBA44FD9"
             BuildableName = "dgp2016.app"
             BlueprintName = "dgp2016"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73072E0A5B414EEE8A517EBE"
+            BlueprintIdentifier = "17DA6CA698D84E76BBA44FD9"
             BuildableName = "dgp2016.app"
             BlueprintName = "dgp2016"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">

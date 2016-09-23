@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96568694783544D983CC9BC1"
+               BlueprintIdentifier = "9DDAA10DD85B4392A167FFFB"
                BuildableName = "wrl_automoc"
                BlueprintName = "wrl_automoc"
                ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96568694783544D983CC9BC1"
+            BlueprintIdentifier = "9DDAA10DD85B4392A167FFFB"
             BuildableName = "wrl_automoc"
             BlueprintName = "wrl_automoc"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96568694783544D983CC9BC1"
+            BlueprintIdentifier = "9DDAA10DD85B4392A167FFFB"
             BuildableName = "wrl_automoc"
             BlueprintName = "wrl_automoc"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">

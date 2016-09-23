@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D38438845864B2F8A601027"
+               BlueprintIdentifier = "84BA9A45A4A44155816F1EE9"
                BuildableName = "libutil.a"
                BlueprintName = "util"
                ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D38438845864B2F8A601027"
+            BlueprintIdentifier = "84BA9A45A4A44155816F1EE9"
             BuildableName = "libutil.a"
             BlueprintName = "util"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D38438845864B2F8A601027"
+            BlueprintIdentifier = "84BA9A45A4A44155816F1EE9"
             BuildableName = "libutil.a"
             BlueprintName = "util"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">

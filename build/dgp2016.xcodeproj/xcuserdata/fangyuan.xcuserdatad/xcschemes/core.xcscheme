@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38C6BEB38E274FC289FF7FFB"
+               BlueprintIdentifier = "060A9A6EE8F74BA1B0F81120"
                BuildableName = "libcore.a"
                BlueprintName = "core"
                ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38C6BEB38E274FC289FF7FFB"
+            BlueprintIdentifier = "060A9A6EE8F74BA1B0F81120"
             BuildableName = "libcore.a"
             BlueprintName = "core"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38C6BEB38E274FC289FF7FFB"
+            BlueprintIdentifier = "060A9A6EE8F74BA1B0F81120"
             BuildableName = "libcore.a"
             BlueprintName = "core"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">

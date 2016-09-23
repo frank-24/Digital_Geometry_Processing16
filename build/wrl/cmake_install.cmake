@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/src/wrl
+# Install script for directory: /Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/src/wrl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

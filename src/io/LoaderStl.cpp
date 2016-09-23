@@ -44,6 +44,7 @@
 #include "wrl/Material.hpp"
 #include "wrl/IndexedFaceSet.hpp"
 
+#include "iostream"
 // reference
 // https://en.wikipedia.org/wiki/STL_(file_format)
 
@@ -70,7 +71,7 @@ bool LoaderStl::load(const char* filename, SceneGraph& wrl) {
     // first token should be "solid"
     if(tkn.expecting("solid") && tkn.get()) {
       string stlName = tkn; // second token should be the solid name
-
+      wrl.setName(stlName);
       // TODO ...
 
       // create the scene graph structure :
@@ -100,34 +101,59 @@ bool LoaderStl::load(const char* filename, SceneGraph& wrl) {
       //     update the normal, coord, and coordIndex variables
       // - if your method returns false
       //     throw an StrException explaining why the method failed
-      while(tkn.get() && tkn != "Shape" );
-      tkn.expecting("{");
-      while(tkn.get()) {
-        cout << "tkn:" << tkn << endl;
-        if(tkn == "appearance" ) {
-          tkn.expecting("Appearance");
-          tkn.expecting("{");
-          while(tkn.get()) {
-            if(tkn == "material") {
-              tkn.expecting("Material");
-            }
-          }
-        }
-        else if(tkn == "geometry" ) {
-          tkn.expecting("IndexedFaceSet");
-          tkn.expecting("{");
-          //TODO
-          /*
-          // from the IndexedFaceSet
-          // 5) get references to the coordIndex, coord, and normal arrays
-          // 6) set the normalPerVertex variable to false (i.e., normals per face)  
-          */
+
+      // **************** implemented from here *****************
+      cout << "create Shape" << endl;
+      // add shape
+      Shape* shape = new Shape();
+      shape->setName(stlName);
+      wrl.addChild(shape);
+          // add appearance
+      Appearance* appearance = new Appearance();
+      Material* material = new Material();
+      // set for appearance first
+      appearance->setMaterial((Node*)material);
+      shape->setAppearance((Node*)appearance);
+              // add material
+
+          // add geomotry
+      IndexedFaceSet* indexedFaceSet = new IndexedFaceSet();
+
+      // get references
+
+      // vector<float>& coord = indexedFaceSet->getCoord();
+      // vector<int>& coordIndex = indexedFaceSet->getCoordIndex();
+      // vector<float>& normal = indexedFaceSet->getNormal();
+      // vector<int>& normalIndex = indexedFaceSet->getNormalIndex();
+
+      indexedFaceSet->setNormalPerVertex(false);
+      // start indexedFaceSet
+      cout << "start indexedFaceSet" << endl;
+      int indexCount = 0;
+      int normalCount = 0;
+      // while(true) {
+      //   loadIndexedFaceSet(tkn, *indexedFaceSet, indexCount, normalCount);
+      //   // end of stl file
+      //   if(tkn.equals("endsolid")) {
+      //     success = true;
+      //     break;
+      //   }
+      // }
+      tkn.get();
+      while(!tkn.equals("endsolid") ) {
+        if(!loadIndexedFaceSet(tkn, *indexedFaceSet, indexCount, normalCount)) {
+          cout << "loadIndexedFaceSet false" << endl;
         }
       }
+
+      shape->setGeometry((Node*)indexedFaceSet);
+      wrl.addChild((pNode)shape);
+      // ******************* implemented end here **********************
     }
 
     // close the file (this statement may not be reached)
     fclose(fp);
+    success = true;
     
   } catch(StrException* e) { 
     
@@ -136,7 +162,112 @@ bool LoaderStl::load(const char* filename, SceneGraph& wrl) {
     delete e;
 
   }
-
+  cout << "load success" << endl;
   return success;
 }
 
+// ****************** implemented private method *******************
+// to parse one face
+bool LoaderStl::loadIndexedFaceSet(Tokenizer& tkn, IndexedFaceSet& ifs, int& indexCount, int& normalCount ) {
+  // bool success = false;
+  // std::cout << "in loadIndexedFaceSet" << std::endl;
+  // while(success == false) {
+  try {
+    if(!tkn.equals("facet")) {
+      // cout << "facet" << endl;
+      throw new StrException("No facet");
+    }
+
+    if(!tkn.expecting("normal")) {
+      // cout << "normal" << endl;
+      throw new StrException("No normal");
+    }
+
+    // get normal
+    // int count = 0;
+    // while(tkn.get() && count < 3) {
+    //   cout << "tkn is " << tkn << endl;
+    //   float ds = atof(tkn.c_str());
+    //   ifs.getNormal().push_back(ds);
+    //   count++;
+    // }
+
+    // ************ Vec3f ***************
+    Vec3f normal;
+    tkn.getVec3f(normal);
+    // for(int i = 0; i < 3; i++) {
+
+    ifs.getNormal().push_back(normal.x);    
+    ifs.getNormal().push_back(normal.y);    
+    ifs.getNormal().push_back(normal.z);    
+    // ************ Vec3f ***************
+   
+    // tkn.get();
+    // ifs.getNormal().push_back(tkn);
+    // tkn.get();
+    // ifs.getNormal().push_back(tkn);
+    // tkn.get();
+    // ifs.getNormal().push_back(tkn);    
+    // }
+    // cout << "tkn is " << normal.x << endl;
+    // cout << "tkn is " << normal.y << endl;
+    // cout << "tkn is " << normal.z << endl;
+    ifs.getNormalIndex().push_back(normalCount++);
+    
+    if(!tkn.expecting("outer")) {
+      // cout << "outer" << endl;
+      throw new StrException("No outer");
+    }
+    if(!tkn.expecting("loop")) {
+      // cout << "loop" << endl;
+      throw new StrException("No loop");
+    }
+    // get vertex
+
+    for(int i = 0; i < 3; i++) {
+      if(!tkn.expecting("vertex")) throw new StrException("No vertex");
+      // int count = 0;
+      // while(tkn.get() && count < 3) {
+      //   float ds = atof(tkn.c_str());
+      //   ifs.getCoord().push_back(ds);
+      //   count++;
+      // }
+      // ************ Vec3f ***************
+      Vec3f vertex;
+      tkn.getVec3f(vertex);
+      ifs.getCoord().push_back(vertex.x);
+      ifs.getCoord().push_back(vertex.y);
+      ifs.getCoord().push_back(vertex.z);
+      // ************ Vec3f ***************
+      // tkn.get();
+      // ifs.getNormal().push_back(tkn);
+      // tkn.get();
+      // ifs.getNormal().push_back(tkn);
+      // tkn.get();
+      // ifs.getNormal().push_back(tkn);   
+
+      ifs.getCoordIndex().push_back(indexCount++);
+    }
+    ifs.getCoordIndex().push_back(-1);
+
+    if(!tkn.expecting("endloop")) throw new StrException("No endloop");
+    if(!tkn.expecting("endfacet")) throw new StrException("No endfacet");
+    //   // tkn.expecting("endfacet");
+    tkn.get();
+  } catch(StrException* e) {     
+      fprintf(stderr,"ERROR | %s\n",e->what());
+      delete e;
+      return false;
+  }
+
+  //   success = true;
+  //   // cout << "face success " << success << endl; 
+  // // }
+
+  // if(success == false) {
+  //   throw new StrException("fail to load this face");
+  //   // cout << "fail to load this face" << endl;
+  // }
+  return true;
+
+}

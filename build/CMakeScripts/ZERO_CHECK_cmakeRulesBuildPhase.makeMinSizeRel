@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/CMakeFiles/ZERO_CHECK
+	/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/CMakeFiles/ZERO_CHECK
 
 
-/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/CMakeFiles/ZERO_CHECK: 
+/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/CMakeScripts/ReRunCMake.make
+	make -f /Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/CMakeScripts/ReRunCMake.make

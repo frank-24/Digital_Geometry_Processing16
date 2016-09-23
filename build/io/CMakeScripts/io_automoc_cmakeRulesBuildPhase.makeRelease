@@ -2,9 +2,9 @@
 # Custom rules for io_automoc
 .SUFFIXES: 
 all: \
-	/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/io/CMakeFiles/io_automoc
+	/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/io/CMakeFiles/io_automoc
 
 
-/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/io/CMakeFiles/io_automoc: 
+/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/io/CMakeFiles/io_automoc: 
 	echo "Automatic moc for target io"
-	cd /Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/io && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/io/CMakeFiles/io_automoc.dir/" Release
+	cd /Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/io && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/io/CMakeFiles/io_automoc.dir/" Release

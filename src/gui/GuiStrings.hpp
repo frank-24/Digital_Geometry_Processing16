@@ -33,8 +33,8 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #define BUNNY_OPTS_WRL \
-  "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/assets/bunny-opts.wrl"
+  "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/assets/bunny-opts.wrl"
 #define BUNNY_MESH_WRL \
-  "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/assets/bunny-mesh-npf.wrl"
+  "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/assets/bunny-mesh-npf.wrl"
 #define APP_TITLE \
   "DGP2016-A1 Fangyuan Huang"

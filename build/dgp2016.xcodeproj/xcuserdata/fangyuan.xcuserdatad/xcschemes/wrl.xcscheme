@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA6775E2B07D4213918CC7FD"
+               BlueprintIdentifier = "40A9F608BA6F4205A1EB75BF"
                BuildableName = "libwrl.a"
                BlueprintName = "wrl"
                ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA6775E2B07D4213918CC7FD"
+            BlueprintIdentifier = "40A9F608BA6F4205A1EB75BF"
             BuildableName = "libwrl.a"
             BlueprintName = "wrl"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA6775E2B07D4213918CC7FD"
+            BlueprintIdentifier = "40A9F608BA6F4205A1EB75BF"
             BuildableName = "libwrl.a"
             BlueprintName = "wrl"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">

@@ -39,41 +39,50 @@
   
 Faces::Faces(const int nV, const vector<int>& coordIndex) {
   // TODO
+  // cout << "in Faces()" << endl;
   _numberOfVertices = nV;
   _coordIndex = coordIndex;
+
+  _firstCornerOfFace.clear();
+  _firstCornerOfFace.push_back(0);
+  //getNumberOfFaces
+  int numberOfFaces = 0;
+  // cout << "coordIndex.size() " << coordIndex.size() << endl;
+  for(int i = 0; i < coordIndex.size(); i++) {
+    // cout << "coordIndex[i] " << coordIndex[i] << endl; 
+    if(coordIndex[i] == -1) {
+      // cout << "find -1" << endl;
+      numberOfFaces++;
+      _firstCornerOfFace.push_back(i + 1);
+    }
+  }
+  _numberOfFaces = numberOfFaces;
+  // cout << "_numberOfFaces ___" << _numberOfFaces << endl;
+  // getNumberOfCorners
+  _numberOfCorners = coordIndex.size() - numberOfFaces;
 }
 
 int Faces::getNumberOfVertices() const {
   // TODO
   // return 0;
+  // cout << "in getNumberOfVertices()" << endl;
   return _numberOfVertices;
 }
 
 int Faces::getNumberOfFaces() const {
   // TODO
   // return 0;
-  int numberOfFaces = 0;
-  for(vector<int>::iterator vit = _coordIndex.begin(); vit != _coordIndex.end(); vit++){
-      if(*vit == -1) {
-          numberOfFaces++;
-      }
-  }
-  return numberOfFaces;
+  // cout << "in getNumberOfFaces()" << endl;
+
+  return _numberOfFaces;
 }
 
 int Faces::getNumberOfCorners() const {
   // TODO
   // return 0;
-  int numberOfFaces = 0;
-  int numberOfCorners = 0;
-  for(vector<int>::iterator vit = _coordIndex.begin(); vit != _coordIndex.end(); vit++){
-      if(*vit == -1) {
-          numberOfFaces++;
-      }
-  }
+  // cout << "in getNumberOfCorners()" << endl;
 
-  numberOfCorners = _coordIndex.size() - numberOfFaces;
-  return numberOfCorners;
+  return _numberOfCorners;
 }
 
 int Faces::getFaceSize(const int iF) const {
@@ -81,26 +90,28 @@ int Faces::getFaceSize(const int iF) const {
   // return 0;
 
   // is an error
-  if(iF < 0 || iF >= getNumberOfFaces() ) {
-    return -1;
-  }
+  // cout << "getFaceSize()" << endl;
+  // if(iF < 0 || iF >= getNumberOfFaces() ) {
+  //   return -1;
+  // }
 
-  int numberOfFaces = 0;
-  vector<int>::iterator vit = _coordIndex.begin();
-  for(; vit != _coordIndex.end(); vit++){
-      if(numberOfFaces == iF) {
-        break;
-      }
-      if(*vit == -1) {
-          numberOfFaces++;
-      }
-  }
-  int count = 0;
-  while(*vit != -1 ) {
-    count++;
-    vit++;
-  }
-  return count;
+  // int numberOfFaces = 0;
+  // // vector<int>::iterator vit = _coordIndex.begin();
+  // int i = 0;
+  // for(; i < _coordIndex.size(); i++){
+  //     if(numberOfFaces == iF) {
+  //       break;
+  //     }
+  //     if(_coordIndex[i] == -1) {
+  //         numberOfFaces++;
+  //     }
+  // }
+  // int count = 0;
+  // while(_coordIndex[i] != -1 ) {
+  //   count++;
+  //   i++;
+  // }
+  return _firstCornerOfFace[iF + 1] - _firstCornerOfFace[iF] - 1;
 }
 
 int Faces::getFaceFirstCorner(const int iF) const {
@@ -108,17 +119,18 @@ int Faces::getFaceFirstCorner(const int iF) const {
   // return -1;
 
   // is an error
+  // cout << "in getFaceFirstCorner()" << endl;
   if(iF < 0 || iF >= getNumberOfFaces() ) {
     return -1;
   }
 
   int numberOfFaces = 0;
-  vector<int>::iterator vit = _coordIndex.begin();
-  for(; vit != _coordIndex.end(); vit++){
+  int i = 0;
+  for(; i < _coordIndex.size(); i++){
       if(numberOfFaces == iF) {
-        return *vit;
+        return _coordIndex[i];
       }
-      if(*vit == -1) {
+      if(_coordIndex[i] == -1) {
           numberOfFaces++;
       }
   }
@@ -129,27 +141,31 @@ int Faces::getFaceVertex(const int iF, const int j) const {
   // return -1;
 
   // is an error
-  if(iF < 0 || iF >= getNumberOfFaces() || j < 0 || j > getNumberOfCorners(iF)  ) {
+  // cout << "in getFaceVertex()" << endl;
+  if(iF < 0 || iF >= getNumberOfFaces() || j < 0 || j > getNumberOfCorners()  ) {
     return -1;
   }
 
-  int numberOfFaces = 0;
-  vector<int>::iterator vit = _coordIndex.begin();
-  for(; vit != _coordIndex.end(); vit++){
-      if(numberOfFaces == iF) {
-        break;
-      }
-      if(*vit == -1) {
-          numberOfFaces++;
-      }
-  }
+  // int numberOfFaces = 0;
+  // int i = 0;
+  // for(; i < _coordIndex.size(); i++){
+  //     if(numberOfFaces == iF) {
+  //       break;
+  //     }
+  //     if(_coordIndex[i] == -1) {
+  //         numberOfFaces++;
+  //     }
+  // }
 
-  for(int idx = 0; idx < j; idx++ ) {
-    if(idx == j) {
-      return *vit;
-    }
-    vit++;
-  }
+  // for(int idx = 0; idx < j; idx++ ) {
+  //   if(idx == j) {
+  //     return _coordIndex[i];
+  //   }
+  //   i++;
+  // }
+  // cout << "Faces::getFaceVertex" << _firstCornerOfFace[iF] << endl;
+  // cout << "coordIndex " << _coordIndex[_firstCornerOfFace[iF] + j] << endl;
+  return _coordIndex[_firstCornerOfFace[iF] + j];
 
 }
 
@@ -158,6 +174,7 @@ int Faces::getCornerFace(const int iC) const {
   // return -1;
   
   // is an error input
+  // cout << "in getCornerFace()" << endl;
   if(iC < 0 || iC >= getNumberOfCorners() ) {
     return -1;
   }
@@ -165,12 +182,12 @@ int Faces::getCornerFace(const int iC) const {
   int faceIndex = 0;
   int cornerIndex = 0;
 
-  for(vector<int>::iterator vit = _coordIndex.begin(); vit != _coordIndex.end(); vit++){
+  for(int i = 0; i < _coordIndex.size(); i++ ) {  
       if(cornerIndex == iC) {
         return faceIndex;
       }
 
-      if(*vit == -1) {
+      if(_coordIndex[i] == -1) {
         faceIndex++;
       }
       else {
@@ -182,9 +199,35 @@ int Faces::getCornerFace(const int iC) const {
 
 int Faces::getNextCorner(const int iC) const {
   // TODO
-  // return -1;
-  if(iF < 0 || iF >= getNumberOfFaces() ) {
-    return -1;
-  }
+  return -1;
+  // if(iC < 0 || iC >= getNumberOfCorners() ) {
+  //   return -1;
+  // }
+
+  // int faceIndex = 0;
+  // int cornerIndex = 0;
+  // int firstCornerIndex = 0;
+
+  // for(int i = 0; i < _coordIndex.size(); i++ ) {  
+  //     if(cornerIndex == iC) {
+  //       return faceIndex;
+  //     }
+
+  //     if(_coordIndex[i] == -1) {
+  //       faceIndex++;
+  //     }
+  //     else {
+  //       cornerIndex++;        
+  //     }
+  // }
+
+}
+
+vector<int> Faces::getFirstCornerOfFace() const {
+  return _firstCornerOfFace;
+}
+
+vector<int> Faces::getCoordIndex() const {
+  return _coordIndex;
 }
 

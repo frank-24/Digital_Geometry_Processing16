@@ -41,12 +41,15 @@
 #include "Tokenizer.hpp"
 
 #include "wrl/Node.hpp"
+#include "wrl/IndexedFaceSet.hpp"
 
 class LoaderStl : public Loader {
 
 private:
 
   const static char* _ext;
+  // ************ private method **************
+  bool loadIndexedFaceSet(Tokenizer& tkn, IndexedFaceSet& ifs, int& indexCount, int& normalCount);
 
 public:
 

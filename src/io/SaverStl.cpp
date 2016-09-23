@@ -42,6 +42,9 @@
 #include "wrl/IndexedFaceSet.hpp"
 
 #include "core/Faces.hpp"
+#include "iostream"
+#include <string>
+using namespace std;
 
 const char* SaverStl::_ext = "stl";
 
@@ -65,45 +68,110 @@ bool SaverStl::save(const char* filename, SceneGraph& wrl) const {
 
     // if (all the conditions are satisfied) {
 
+    if(wrl.isSceneGraph() == false ) {
+      cout << "not a SceneGraph node" << endl;
+    }
+
+    if(wrl.getNumberOfChildren() != 1) {
+      cout << "SceneGraph has more than 1 child" << endl;
+    }
+    cout << "NumbOfChilder " << wrl.getNumberOfChildren() << endl; 
+    vector<Node*> children = wrl.getChildren();
+    Shape* shape = (Shape*)children[0];
+    if(shape->isShape() == false) {
+      cout << "child of SceneGraph not a Shape node" << endl;
+    }
+
+    if(shape->hasGeometryIndexedFaceSet() == false ) {
+      cout << "shape has no Geometry" << endl;
+    }
+    IndexedFaceSet* ifs = (IndexedFaceSet*)shape->getGeometry();
+    if(ifs->isIndexedFaceSet() == false ) {
+      cout << "geometry of the Shape node not an IndexedFaceSet node" << endl;
+    }
+
+    if(ifs->isTriangleMesh() == false) {
+      cout << "ifs not triangle mesh" << endl;
+    }
+
+    vector<float> coord = ifs->getCoord();
+    vector<float> normal = ifs->getNormal();
+    vector<int> coordIndex = ifs->getCoordIndex();
+    // std::set<float> myset;
+    // for(int i = 0; i < coordIndex.size(); i++) {
+    //   myset.insert(coordIndex[i]);
+    // }
+
+    // int nV = myset.size() - 1; // remove the "-1", others are vertex
+    int nV = coord.size() / 3;
+    cout << "nV" << nV << endl;
+    cout << "coordIndex.size() " << coordIndex.size() << endl;
+    cout << "normal.size() " << normal.size() << endl; 
+    cout << "numberOfFaces " << ifs->getNumberOfFaces() << endl;
+    Faces* face = new Faces(nV, ifs->getCoordIndex());
+
     FILE* fp = fopen(filename,"w");
     if(	fp!=(FILE*)0) {
-      if(wrl->getName() != NULL ) {
-        filename = wrl->getName();
+      string name;
+      // // ********* get Name *******
+      if(shape->getName() != "" ) {
+        name = shape->getName();
+      }
+      else {
+        name = string(filename);
+        int lastSlash = name.find_last_of('/');
+        int lastDot = name.find_last_of('.');
+        name = name.substr(lastSlash + 1, lastDot - lastSlash - 1);
       }
       
       // if set, use ifs->getName()
       // otherwise use filename,
       // but first remove directory and extension
 
-      fprintf(fp,"solid %s\n",filename);
+      fprintf(fp,"solid %s\n", name.c_str());
 
       // TODO ...
       // for each face {
       //   ...
       // }
-      int numberOfFaces = getNumberOfFaces();
 
+      // *************** save each face ***************
+      int numberOfFaces = face->getNumberOfFaces();
+      // cout << "size of coordIndex " << (face->getCoordIndex()).size() << endl;
+      // for(int i = 0; i < coordIndex.size(); i++) {
+      //   cout << "coordIndex[i]" << coordIndex[i] << endl;
+      // }
+      // cout << "numberOfFaces" << numberOfFaces << endl;
+      // cout << "_firstCornerOfFace.size()" << (face->getFirstCornerOfFace()).size() << endl;
+      // for(int i = 0; i < (face->getFirstCornerOfFace()).size(); i++ ) {
+      //   cout << (face->getFirstCornerOfFace())[i] << endl;
+      // }
+      // cout << ""
       // for each face
       for(int idxOfFace = 0; idxOfFace < numberOfFaces; idxOfFace++ ) {
-        fprintf(fp, "%s", "facet norml ");
-        fprintf(fp, "%f, %f, %f\n", _normal[idxOfFace * 3], _normal[idxOfFace * 3 + 1], _normal[idxOfFace * 3 + 2] );
+        fprintf(fp, "  %s", "facet normal ");
+        fprintf(fp, "%f %f %f\n", normal[idxOfFace * 3], normal[idxOfFace * 3 + 1], normal[idxOfFace * 3 + 2] );
         // outer loop
-        fprintf(fp, "%s\n", "outer loop");
+        fprintf(fp, "\t%s\n", "outer loop");
         // for each vertex
-        for(int idxOfVertex = 0; idxOfVertex < getFaceSize(idxOfFace); idxOfVertex++ ) {
-          fprintf(fp, "%s, %f, %f, %f ", "vertex", getFaceVertex(idxOfFace, 0), getFaceVertex(idxOfFace, 1), getFaceVertex(idxOfFace, 2) );   
+        for(int idxOfVertex = 0; idxOfVertex < face->getFaceSize(idxOfFace); idxOfVertex++ ) {
+          fprintf(fp, "\t  %s %f %f %f\n", "vertex", coord[(face->getFaceVertex(idxOfFace, idxOfVertex))*3], 
+                                                     coord[(face->getFaceVertex(idxOfFace, idxOfVertex))*3 + 1], 
+                                                     coord[(face->getFaceVertex(idxOfFace, idxOfVertex))*3 + 2] );   
+        // cout << "face->getFaceVertex(idxOfFace, idxOfVertex)" << face->getFaceVertex(idxOfFace, idxOfVertex) << endl;
         }
         // end loop
-        fprintf(fp, "%s\n", "endloop" );
+        fprintf(fp, "\t%s\n", "endloop" );
         // end facet
-        fprintf(fp, "%s\n", "endfacet");
+        fprintf(fp, "  %s\n", "endfacet");
       }
-
-
+      // *************** save each face end here ***************
+      fprintf(fp, "%s\n", "endsolid" );
       fclose(fp);
       success = true;
     }
 
+    delete face;
     // } endif (all the conditions are satisfied)
 
   }

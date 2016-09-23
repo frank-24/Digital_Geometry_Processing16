@@ -36,6 +36,7 @@
 #define _Node_h_
 
 #include <string>
+#include <set>
 
 using namespace std;
 

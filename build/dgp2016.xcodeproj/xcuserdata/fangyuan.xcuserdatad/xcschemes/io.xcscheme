@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8BAE4AD4524947DBBA42511A"
+               BlueprintIdentifier = "F8F7629236264DB48022190A"
                BuildableName = "libio.a"
                BlueprintName = "io"
                ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8BAE4AD4524947DBBA42511A"
+            BlueprintIdentifier = "F8F7629236264DB48022190A"
             BuildableName = "libio.a"
             BlueprintName = "io"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8BAE4AD4524947DBBA42511A"
+            BlueprintIdentifier = "F8F7629236264DB48022190A"
             BuildableName = "libio.a"
             BlueprintName = "io"
             ReferencedContainer = "container:../build/dgp2016.xcodeproj">

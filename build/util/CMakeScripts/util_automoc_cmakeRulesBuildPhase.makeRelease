@@ -2,9 +2,9 @@
 # Custom rules for util_automoc
 .SUFFIXES: 
 all: \
-	/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/util/CMakeFiles/util_automoc
+	/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/util/CMakeFiles/util_automoc
 
 
-/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/util/CMakeFiles/util_automoc: 
+/Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/util/CMakeFiles/util_automoc: 
 	echo "Automatic moc for target util"
-	cd /Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/DGP2016-A1/build/util && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/DGP2016-A1/build/util/CMakeFiles/util_automoc.dir/" Release
+	cd /Users/mac/Google\ Drive/Course/2016\ Fall/ENGN2501/hw/hw1/DGP2016-A1/build/util && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/mac/Google Drive/Course/2016 Fall/ENGN2501/hw/hw1/DGP2016-A1/build/util/CMakeFiles/util_automoc.dir/" Release

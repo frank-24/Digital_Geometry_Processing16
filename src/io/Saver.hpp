@@ -36,7 +36,7 @@
 #define _Saver_h_
 
 #include <wrl/SceneGraph.hpp>
-
+#include <string>
 class Saver {
 
 public:
